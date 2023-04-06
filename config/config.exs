@@ -7,6 +7,8 @@
 # General application configuration
 import Config
 
+config :triplex, repo: Fresco.Repo, tenant_prefix: "fresco_"
+
 config :fresco,
   ecto_repos: [Fresco.Repo]
 
